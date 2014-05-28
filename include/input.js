@@ -265,6 +265,7 @@ function onMouseButton(e, down) {
 }
 
 function onMouseDown(e) {
+    window.focus();
     captureMouse();
     onMouseButton(e, 1);
 }
